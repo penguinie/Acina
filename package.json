@@ -1,0 +1,22 @@
+{
+  "name": "penguinie",
+  "version": "1.0.0",
+  "description": "A Full Stack Web Development Freelancer",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Full",
+    "Stack",
+    "Web",
+    "Development",
+    "Freelancer"
+  ],
+  "author": "Ayon Das",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.15.4"
+  }
+}

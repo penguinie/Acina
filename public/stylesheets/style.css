@@ -1,0 +1,39 @@
+.contact:hover { cursor: pointer;}
+.contact{ border-radius: 1000px; }
+@media (max-width: 768px){ 
+    .contact{ 
+      display: block; 
+      margin:0px auto; 
+      }
+    .buy, .sell {
+      display: inline;
+    }
+  }
+
+.parallax { 
+    background-image: url("/designs/back.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*Footer*/
+footer{
+	display: block;
+}
+footer a{
+	text-decoration: none;
+	color: white;
+}
+footer a:hover{
+	text-decoration: none;
+	color: white;
+}
+.footer-copyright {
+  height: 60px;
+  line-height: 30px;
+  color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(0, 0, 0, 0.2);
+  text-align: center;
+  font-size: 0.9rem;
+}

@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="">
+    <title>Brand Name</title>
+    <link rel="stylesheet" type="text/css" href="/stylesheets/bootstrap/css/bootstrap.css">
+    <link href="/stylesheets/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="/stylesheets/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="/stylesheets/animate.css">
+    <script type="text/javascript" src="/stylesheets/bootstrap/js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</head>
+<body class="parallax">
+    <!-- Navogation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="opacity: 0.8;">
+    <div class="container">
+      <a class="navbar-brand" href="/">
+        <img src="/designs/logo.png" class="p-3">
+      </a>
+      <button type="button" class="contact btn btn-outline-dark btn-lg" data-toggle="modal" data-target="#contact">Contact Us</button>
+    </div>
+    </nav>
+
+
+    <div class="jumbotron jumbotron-fluid text-center mb-0" style="opacity: 0.9;">
+    <div class="container">
+        <h1 class="display-4">Are you interested in selling your home?</h1>
+        <p class="lead">Looking to save time by avoiding the traditional listing process?</p>
+        <p class="lead" style="font-weight: bold;">
+            We will purchase your home no commission and no closing costs in any condition 'AS IS'.
+        </p>
+        <div class="embed-responsive embed-responsive-16by9 w-75" style="margin:0px auto; border:2px solid purple;">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/DaNlLoc3cI0" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <button type="button" class="contact buy btn btn-outline-dark btn-lg mt-5" data-toggle="modal" data-target="#buyer">Buyer</button>
+        <button type="button" class="contact sell btn btn-outline-dark btn-lg mt-5" data-toggle="modal" data-target="#seller">Seller</button>
+    </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="buyer" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <!-- <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div> -->
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label class="float-left">Buyer Name*</label>
+                <input type="text" class="form-control" aria-describedby="BuyerHelp" required>
+              </div>
+              <div class="form-group">
+                <label class="float-left">Phone Number*</label>
+                <input type="tel" class="form-control" aria-describedby="PhoneHelp" required>
+              </div>
+              <div class="form-group">
+                <label class="float-left">Email address*</label>
+                <input type="email" class="form-control" aria-describedby="emailHelp" required>
+              </div>
+              <div class="form-group">
+                <label class="float-left">Cash Limit*</label>
+                <input type="text" class="form-control" aria-describedby="cashHelp" required>
+              </div>
+              <div class="form-group">
+                <label class="float-left">Buying Locations*</label>
+                <input type="text" class="form-control" aria-describedby="BuyHelp" placeholder="State & Cities/Countries" required>
+              </div>
+              <div class="form-group">
+                <label class="float-left">Buying Criteria*</label>
+                <input type="text" class="form-control" aria-describedby="CriteriaHelp" placeholder="Single Family/Town Home" required>
+              </div>
+              <button type="submit" class="btn btn-primary">Send</button>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="seller" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <!-- <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div> -->
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label class="float-left">Name*</label>
+                <input type="text" class="form-control" aria-describedby="BuyerHelp" required>
+              </div>
+              <div class="form-group">
+                <label class="float-left">Phone Number*</label>
+                <input type="tel" class="form-control" aria-describedby="PhoneHelp" required>
+              </div>
+              <div class="form-group">
+                <label class="float-left">Email address*</label>
+                <input type="email" class="form-control" aria-describedby="emailHelp" required>
+              </div>
+              <div class="form-group">
+                <label class="float-left">Property Address*</label>
+                <input type="text" class="form-control" aria-describedby="cashHelp" required>
+              </div>
+              <button type="submit" class="btn btn-primary">Send</button>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="contact" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-sm" role="document">
+        <div class="modal-content">
+          <!-- <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div> -->
+          <div class="modal-body">
+            <p class="display-4" style="font-size: 2em; text-align: center;">1234-567-890</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Footer-->
+  <footer style="background-color: #222;">
+      <div style="background-color: purple;">
+          <div class="container">
+              <div class="row py-4 d-flex align-items-center">
+                  <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+                      <h6 class="mb-0 text-white">Get connected with us on social networks!</h6>
+                  </div>
+                  <div class="col-md-6 col-lg-7 text-center text-md-right">
+                      <a class="icons-sm fb-ic ml-0"><i class="fa fa-facebook text-white mr-4"> </i></a>
+                      <a class="icons-sm tw-ic"><i class="fa fa-twitter text-white mr-4"> </i></a>
+                      <a class="icons-sm gplus-ic"><i class="fa fa-google-plus text-white mr-4"> </i></a>
+                      <a class="icons-sm li-ic"><i class="fa fa-linkedin text-white mr-4"> </i></a>
+                      <a class="icons-sm ins-ic"><i class="fa fa-instagram text-white mr-4"> </i></a>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="container mt-5 mb-4 text-center text-md-left text-white">
+          <div class="row mt-3">
+              <div class="col-md-3 col-lg-4 col-xl-3 mb-r">
+                  <h5 class=""><strong>Acina</strong></h5>
+                  <hr class="bg-primary accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                  <p>Here I will add your content. Lorem ipsum dolor sit
+                      amet, consectetur adipisicing elit.</p>
+              </div>
+              <!--/.First column-->
+
+              <!--Second column-->
+              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-r">
+                  <h6 class="title font-bold"><strong>Products</strong></h6>
+                  <hr class="bg-primary accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                  <p><a href="#!">Architechture</a></p>
+                  <p><a href="#!">Architechture Flow</a></p>
+                  <p><a href="#!">BrandFlow</a></p>
+                  <p><a href="#!">Bootstrap Javascript</a></p>
+              </div>
+              <!--/.Second column-->
+
+              <!--Third column-->
+              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-r">
+                  <h6 class="title font-bold"><strong>Useful links</strong></h6>
+                  <hr class="bg-primary accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                  <p><a href="#!">Your Account</a></p>
+                  <p><a href="#!">Become an Affiliate</a></p>
+                  <p><a href="#!">Shipping Rates</a></p>
+                  <p><a href="#!">Help</a></p>
+              </div>
+              <!--/.Third column-->
+
+              <!--Fourth column-->
+              <div class="col-md-4 col-lg-3 col-xl-3">
+                  <h6 class="title font-bold"><strong>Contact</strong></h6>
+                  <hr class="bg-primary accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                  <p><i class="fa fa-home mr-3"></i> Germany, G 600012</p>
+                  <p><i class="fa fa-envelope mr-3"></i> info@example.com</p>
+                  <p><i class="fa fa-phone mr-3"></i> + 01 234 567 88</p>
+                  <p><i class="fa fa-print mr-3"></i> + 01 234 567 89</p>
+              </div>
+              <!--/.Fourth column-->
+
+          </div>
+      </div>
+      <!--/.Footer Links-->
+
+      <!-- Copyright-->
+      <div class="footer-copyright">
+          <div class="container-fluid">
+              <strong>Awesome Acina.</strong> All Rights Reserved <br>© 2017 Copyright: <a href="#"><strong> acina.herokuapp.com</strong></a>
+          </div>
+      </div>
+      <!--/.Copyright -->
+      
+  </footer>
+  <!--/.Footer-->
+    <script src="/stylesheets/bootstrap/js/popper.min.js"></script>
+    <script src="/stylesheets/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/scripts/script.js"></script>
+</body>
+</html>
